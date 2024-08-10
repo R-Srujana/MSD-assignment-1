@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw; 
+ 
+    background-image:url('https://media.istockphoto.com/id/1458692816/photo/kitchen-empty-bar-background-studio-room-workshop-green-blue-white-cement-wall.webp?s=1024x1024&w=is&k=20&c=mCiC7ncqZh2l1oQC56N3CGjfmac6O_wdlFRa-mhsGDI=');
+    background-size:cover;
+}
+.navbar {
+    display: flex;                
+     align-items: center;        
+     justify-content: space-between;
+     background-color:rgba(255,255,255,0.7);
+     padding: 10px 50px;          
+     margin-top:10px;
+     margin-left: 50px;
+     margin-right: 50px;          
+     width: 1200px;      
+ }
+ .logo {
+     align-items: center;
+     margin-right: 20px;
+ }
+ .logo-name{
+     margin-right: 40px;
+ }
+ .links{
+     margin-right: 70px;
+ }
+ a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+ }
+
+.container{
+    display: grid;
+    padding: 50px;
+    height: 500px;
+    width:1000px;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    margin-left: 150px;
+  
+}
+.content{
+    margin-left: 100px;
+    color:white;
+
+}
+.position{
+    border-color: black;
+    background-color: darkseagreen;
+    border-width: 200px;
+    border: 2px solid black;
+    justify-content: end;
+    align-items: center;
+    
+
+}
+#box1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/220px-Polar_Bear_-_Alaska_%28cropped%29.jpg");
+    background-size: cover;
+    background-image:no-repeat;
+}
+#box2{
+    background-image: url("https://img.freepik.com/premium-photo/book-cup-coffee-are-table-window_81048-26405.jpg?w=740");
+    background-size: cover;
+    background-image:no-repeat;
+}
+#box3{
+    background-image: url("https://media.gettyimages.com/id/157315002/photo/snow-covered-house.jpg?s=612x612&w=gi&k=20&c=Z581v3Ovla_JumzZ7DlX_rooue85y9m5T-ARJ_HgawQ=");
+    background-size: cover;
+    background-image:no-repeat;
+}
+#box4{
+    background-size: cover;
+    background-image:no-repeat;
+    background-image: url("https://media.istockphoto.com/id/460682111/photo/panorama-of-the-winter-sunrise-in-mountains.jpg?s=612x612&w=0&k=20&c=DYe99hLsrxeGCIFy-sYTCnQCBllnoPVn3digKa7-J9I=");
+}
+#box5{
+    background-image: url("https://freedesignfile.com/upload/2019/04/Woman-sitting-on-the-hillside-looking-at-the-rising-sun-Stock-Photo.jpg");
+    background-size: cover;
+    background-image:no-repeat;
+}
+#box6{
+    background-size: cover;
+    background-image:no-repeat;
+    background-image: url("https://media.easemytrip.com/media/Blog/India/637755931439755706/637755931439755706tfikOA.jpg");
+}
