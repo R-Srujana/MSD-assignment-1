@@ -95,3 +95,17 @@ body{
     background-image:no-repeat;
     background-image: url("https://media.easemytrip.com/media/Blog/India/637755931439755706/637755931439755706tfikOA.jpg");
 }
+.footer{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,0.3);
+    color: white;
+    width: 500px;
+    height: 30px;
+}
+#copyrights{
+  margin:3px;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
